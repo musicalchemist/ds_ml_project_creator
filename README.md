@@ -16,6 +16,7 @@ Please note that this script assumes you have conda installed and available on y
 
 This will create a new directory with the following structure:
 
+```
 my_new_project
 ├── README.md
 ├── requirements.txt
@@ -39,6 +40,7 @@ my_new_project
 │ ├── **init**.py
 │ └── visualize.py
 └── tests
+```
 
 In addition, the script creates a new conda environment with the name data_science_base and installs the following Python packages:
 
