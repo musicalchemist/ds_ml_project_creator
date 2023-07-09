@@ -1,4 +1,4 @@
-# DataScienceProjectCreator
+# Data Science & Machine Learning Project Creator
 
 This is a simple Bash script that creates a standard directory structure for data science and machine learning projects. The script also sets up a new conda environment and installs a set of predefined Python packages that are commonly used in data science and machine learning projects.
 
