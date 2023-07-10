@@ -42,6 +42,9 @@ touch src/visualization/visualize.py
 # Download Python .gitignore file
 curl https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore -o .gitignore
 
+# Append .DS_Store ignore rule to .gitignore
+echo "**/.DS_Store" >> $REPO_NAME/.gitignore
+
 # Initialize a Git repository
 git init
 
