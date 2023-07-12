@@ -55,7 +55,6 @@ conda create -n $ENV_NAME python=3.10 -y
 source activate $ENV_NAME
 
 # Define Python packages
-echo "python=3.10" > requirements.txt
 echo "pandas" >> requirements.txt
 echo "numpy" >> requirements.txt
 echo "scikit-learn" >> requirements.txt
